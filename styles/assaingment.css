@@ -100,7 +100,7 @@ nav li:hover{
     cursor: pointer;
 }
 
-/* Tablet & Mobile */
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
     nav {
         padding: 16px 24px;
@@ -128,6 +128,7 @@ nav li:hover{
     }
 }
 
+/*Hero section*/
 .hero-parent {
    
     height: 674px;
