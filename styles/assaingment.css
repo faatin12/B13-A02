@@ -153,7 +153,21 @@ nav li:hover{
     gap: 24px;
 }
 
-
+.new-badge {
+    position: absolute;
+    padding-right: 150px;
+    top: 48px;
+    right: -40px;
+    background: #22ff88;
+    color: #0b2e1c;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 10px;
+    border-radius: 999px;
+    box-shadow: 0 0 12px rgba(34, 255, 136, 0.6);
+    z-index: 3;
+    letter-spacing: 0.5px;
+}
 
 .hero-content .icon {
     width: 180px;
@@ -248,7 +262,20 @@ nav li:hover{
     font-size: 20px;
 }
 
+.hero_btns button:first-child:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow:
+        0 0 12px rgba(247, 233, 63, 0.6),
+        0 0 24px rgba(251, 9, 180, 0.6),
+        0 0 40px rgba(145, 0, 248, 0.7);
+}
 
+.hero_btns button:last-child:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow:
+        0 0 10px rgba(48, 184, 104, 0.6),
+        0 0 24px rgba(48, 184, 104, 0.5);
+}
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
     .hero-parent {
@@ -259,7 +286,12 @@ nav li:hover{
     .hero-content {
         gap: 20px;
     }
-
+    .new-badge {
+        top: 14px;
+        right: -40px;
+        font-size: 11px;
+        padding: 5px 9px;
+    }
     .hero-content .icon {
         width: 160px;
         height: 160px;
@@ -340,7 +372,14 @@ nav li:hover{
     color: #a8aedc;
     margin-bottom: 81px; 
 }
-
+.divider {
+  border: 0;              
+  height: 1px;             
+  background: #ffffff;    
+  opacity: 0.1;            
+  margin: 40px auto;       
+  width: 80%;              
+}
 
 .about-stats {
     display: flex;
@@ -728,7 +767,6 @@ nav li:hover{
     font-size: 15px;
   }
 
-  /* GAP */
   .section-gap {
     height: 80px;
   }
