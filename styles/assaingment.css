@@ -250,7 +250,7 @@ nav li:hover{
 }
 
 
-@media (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
 
     .hero-parent {
         height: auto;
@@ -363,6 +363,52 @@ nav li:hover{
     letter-spacing: 1px;
     color: #9aa0d6;
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .about-podcast {
+        padding: 80px 40px;
+    }
+
+    .about-container {
+        max-width: 720px;
+    }
+
+    .about-podcast h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .about-desc {
+        font-size: 17px;
+        line-height: 1.7;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-subtext {
+        font-size: 16px;
+        margin-bottom: 56px;
+    }
+
+    /* STATS GRID */
+    .about-stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+        justify-items: center;
+    }
+
+    .stat h3 {
+        font-size: 26px;
+    }
+
+    .stat span {
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        text-align: center;
+        display: block;
+    }
+}
 
 
 .why-techwave {
@@ -445,6 +491,56 @@ nav li:hover{
     color: #b3b3b3; 
     line-height: 1.6; 
 }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+  .why-techwave {
+    padding: 70px 24px;
+  }
+
+  .why-techwave h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .why-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .why-card,
+  .why-card.tall,
+  .why-card.mobile,
+  .why-card.global,
+  .why-card.wide,
+  .why-card.resources {
+    width: 100%;
+    height: auto;
+    grid-column: unset;
+    grid-row: unset;
+    padding: 32px;
+    border-radius: 32px;
+  }
+
+  .why-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .why-card h3 {
+    font-size: 22px;
+  }
+
+  .why-card p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
 
 * {
     margin: 0;
