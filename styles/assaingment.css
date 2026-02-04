@@ -193,7 +193,6 @@ nav li:hover{
     padding-right: 60px;
     padding-top:150px ;
     font-weight: 700;
-    letter-spacing: 0;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -683,6 +682,84 @@ nav li:hover{
 .host-social a:hover {
     background: #ff4fd8;
 }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+  /* SECTION */
+  .episodes-section {
+    width: 100%;
+    padding: 80px 24px;
+    gap: 80px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  /* EPISODES */
+  .episodes-cards {
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .episode-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .video-wrapper iframe {
+    height: 200px;
+  }
+
+  .episode-card h3 {
+    font-size: 20px;
+  }
+
+  .episode-card p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .time {
+    font-size: 15px;
+  }
+
+  /* GAP */
+  .section-gap {
+    height: 80px;
+  }
+
+  /* HOST */
+  .host-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+    gap: 24px;
+  }
+
+  .host-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .host-content h3 {
+    font-size: 20px;
+  }
+
+  .host-content p {
+    font-size: 14px;
+  }
+
+  .host-social {
+    justify-content: center;
+  }
+}
+
 /*Fotter section*/
 .footer {
     background-image: url(../assets/footer-bg.png);
